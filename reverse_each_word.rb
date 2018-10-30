@@ -4,7 +4,7 @@ def reverse_each_word(string)
   array.each do |x|
     returnstring<<x.reverse
   end
-  return returnstring
+  puts returnstring
 end
 
 reverse_each_word("Hello my name is Dan")
