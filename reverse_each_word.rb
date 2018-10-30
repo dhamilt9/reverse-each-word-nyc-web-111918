@@ -6,3 +6,5 @@ def reverse_each_word(string)
   end
   puts array
 end
+
+reverse_each_word("Hello my name is Dan")
