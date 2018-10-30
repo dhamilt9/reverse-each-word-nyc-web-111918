@@ -4,4 +4,4 @@ def reverse_each_word(string)
   return array.collect{ |x| x.reverse }.join(" ")
 end
 
-reverse_each_word("Hello my name is Dan")
+puts reverse_each_word("Hello my name is Dan")
